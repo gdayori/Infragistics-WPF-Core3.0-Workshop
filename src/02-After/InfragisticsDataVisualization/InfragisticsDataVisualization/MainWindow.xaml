@@ -1,0 +1,50 @@
+﻿<Window x:Class="InfragisticsDataVisualization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InfragisticsDataVisualization"
+        mc:Ignorable="d"
+        xmlns:vm="clr-namespace:InfragisticsDataVisualization.ViewModel"
+        xmlns:igDP="http://infragistics.com/DataPresenter"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <vm:MainWindowViewModel/>
+    </Window.DataContext>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25px"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Pivot Analytics" Command="{Binding OpenBiWindow}" Grid.Column="0"/>
+        <Button Content="Dashboard" Command="{Binding OpenDashboard}" Grid.Column="1"/>
+
+        <igDP:XamDataGrid DataSource="{Binding Path=SalesRecords}" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1"  >
+            <igDP:XamDataGrid.FieldLayoutSettings>
+                <igDP:FieldLayoutSettings FilterUIType="LabelIcons"/>
+                
+            </igDP:XamDataGrid.FieldLayoutSettings>
+            <igDP:XamDataGrid.FieldSettings>
+                <igDP:FieldSettings AllowRecordFiltering="True" FilterLabelIconDropDownType="MultiSelectExcelStyle" 
+                                AllowSummaries="True" SummaryDisplayArea="InGroupByRecords" 
+                                AllowFixing="NearOrFar"/>
+            </igDP:XamDataGrid.FieldSettings>
+            <igDP:XamDataGrid.FieldLayouts>
+                <igDP:FieldLayout Key="Sale">
+                    <igDP:TextField Label="Sales Person" Name="SalesPerson" />
+                    <igDP:DateTimeField Name="Date" />
+                    <igDP:TextField Label="City" Name="City" />
+                    <igDP:TextField Label="Product Name" Name="ProductName" />
+                    <igDP:NumericField Label="Qty" Name="NumberOfUnits" />
+                    <igDP:NumericField Label="UnitPrice" Name="UnitPrice" />
+                    <igDP:CurrencyField Label="Sales Amount" Name="AmountOfSale" />
+                </igDP:FieldLayout>
+            </igDP:XamDataGrid.FieldLayouts>
+        </igDP:XamDataGrid>
+    </Grid>
+</Window>
