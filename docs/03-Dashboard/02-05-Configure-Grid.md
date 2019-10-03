@@ -18,7 +18,7 @@ Note that the data is already ordered by AmountOfSale and extracted the top 30 r
 
 ## Add XamDataGrid
 
-Open Dashboard.xaml. Add a namespace of "http://infragistics.com/DataPresenter" with a prefix "igDP".
+Open Dashboard.xaml. Add a namespace "http://infragistics.com/DataPresenter" with a prefix "igDP".
 
 ```xml
 <Window 

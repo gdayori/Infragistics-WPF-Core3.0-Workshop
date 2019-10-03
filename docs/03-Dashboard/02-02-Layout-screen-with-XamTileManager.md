@@ -3,7 +3,7 @@
 
 ## Add TileManager control and Layout tiles
 
-Open Dashboard.xaml. Add a namespace of "http://schemas.infragistics.com/xaml" with a prefix "ig".
+Open Dashboard.xaml. Add a namespace "http://schemas.infragistics.com/xaml" with a prefix "ig".
 
 ```xml
 <Window 

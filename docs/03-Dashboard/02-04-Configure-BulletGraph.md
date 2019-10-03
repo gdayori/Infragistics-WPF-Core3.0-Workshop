@@ -1,6 +1,8 @@
 # Configure BulletGraph
 
-You add a bullet graph here to express how the sales forecast this year goes on compared to the sales target. You use XamBulletGraph to express it in this step.
+You add a bullet graph here to express how the sales forecast this year goes on compared to the sales target. You use XamBulletGraph for that in this step.
+
+![](../assets/03-04-00.png)
 
 ## Check the datasource to be bound to XamBulletGraph.
 
@@ -102,7 +104,7 @@ Dashboard.xaml
 
 Run the app and check the result.
 
-![](../assets/02-04-05.png)
+![](../assets/03-04-01.png)
 
 ## Note
 If you want to learn more about XamBulletGraph, check the help topic here.

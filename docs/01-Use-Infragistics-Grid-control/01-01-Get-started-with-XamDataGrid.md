@@ -100,7 +100,7 @@ Now the Nuget package is added and you can use XamDataGrid in the project.
 
 ## Add XamDataGrid
 
-Open MainWindow.xaml. Add a namespace of "http://infragistics.com/DataPresenter" with a prefix "igDP" and put the dinition of XamDataGrid as below. DataSource property is bound to SalesRecords comingfrom ViewModel.
+Open MainWindow.xaml. Add a namespace "http://infragistics.com/DataPresenter" with a prefix "igDP" and put the dinition of XamDataGrid as below. DataSource property is bound to SalesRecords comingfrom ViewModel.
 
 MainWindow.xaml
 

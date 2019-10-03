@@ -41,7 +41,7 @@ This xaml has
 
 ## Add Pivot controls and a DataChart control
 
-Open Pivot.xaml. Add a namespace of "http://schemas.infragistics.com/xaml" with a prefix "ig" and add following controls to XAML.
+Open Pivot.xaml. Add a namespace "http://schemas.infragistics.com/xaml" with a prefix "ig" and add following controls to XAML.
 
  - XamPivotGird - Top center
  - XamPivotDataSelector - Right side

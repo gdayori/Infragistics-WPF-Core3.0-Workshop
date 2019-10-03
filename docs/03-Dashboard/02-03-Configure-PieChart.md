@@ -2,6 +2,8 @@
 
 You add a pie chart here to express the ratio of the amount of sales by products. You use XamPieChart for thatin this step.
 
+![](../assets/03-03-00.png)
+
 ## Check the datasource to be bound to XamPieChart
 
 Open DashboardViewModel.cs, set a breakpoint and start debugging to see what's in the bound data SalesAmountByProduct. That should be like below 
