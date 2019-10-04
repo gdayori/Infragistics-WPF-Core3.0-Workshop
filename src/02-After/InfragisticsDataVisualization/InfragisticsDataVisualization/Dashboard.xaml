@@ -45,16 +45,12 @@
                 ig:XamTileManager.ColumnSpan="1"
                 ig:XamTileManager.RowSpan="1">
                 <StackPanel VerticalAlignment="Center" >
-                    <TextBlock 
-                        HorizontalAlignment="Center" 
-                        TextWrapping="Wrap" 
-                        FontSize="60" 
-            Text="{Binding TotalSalesThisYear, StringFormat=$ \{0\} M}"/>
+                    <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" FontSize="80" Text="{Binding Path=TotalSalesThisYear, StringFormat= $ {0} M }"/>
                     <ig:XamBulletGraph 
-                        Interval="20" 
-                        MaximumValue="150" 
                         TargetValue="{Binding SalesTargetThisYear}" 
                         Value="{Binding TotalSalesThisYear}" 
+                        Interval="20" 
+                        MaximumValue="150" 
                         TargetValueBrush="Yellow" 
                         ValueBrush="Orange">
                         <ig:XamBulletGraph.Ranges>
@@ -72,7 +68,7 @@
                 ig:XamTileManager.Row="0" 
                 ig:XamTileManager.ColumnSpan="1"
                 ig:XamTileManager.RowSpan="2">
-                <igDP:XamDataGrid AutoFit="True" DataSource="{Binding Path=Top30LargeDeals}" >
+                <igDP:XamDataGrid DataSource="{Binding Path=Top30LargeDeals}" AutoFit="True" >
                     <igDP:XamDataGrid.FieldLayoutSettings>
                         <igDP:FieldLayoutSettings AutoGenerateFields="False" />
                     </igDP:XamDataGrid.FieldLayoutSettings>
@@ -93,8 +89,8 @@
                 ig:XamTileManager.ColumnSpan="2"
                 ig:XamTileManager.RowSpan="1" >
                 <ig:XamCategoryChart 
-                    ChartType="Column" 
                     ItemsSource="{Binding Path=MonthlySalesAmount}" 
+                    ChartType="Column" 
                     XAxisInterval="1"
                     TrendLineType="CubicFit" 
                     TrendLineBrushes="#E0E010"/>

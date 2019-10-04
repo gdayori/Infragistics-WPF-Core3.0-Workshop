@@ -27,12 +27,12 @@
         <igDP:XamDataGrid DataSource="{Binding Path=SalesRecords}" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1"  >
             <igDP:XamDataGrid.FieldLayoutSettings>
                 <igDP:FieldLayoutSettings FilterUIType="LabelIcons"/>
-                
+
             </igDP:XamDataGrid.FieldLayoutSettings>
             <igDP:XamDataGrid.FieldSettings>
                 <igDP:FieldSettings AllowRecordFiltering="True" FilterLabelIconDropDownType="MultiSelectExcelStyle" 
-                                AllowSummaries="True" SummaryDisplayArea="InGroupByRecords" 
-                                AllowFixing="NearOrFar"/>
+                        AllowSummaries="True" SummaryDisplayArea="InGroupByRecords" 
+                        AllowFixing="NearOrFar"/>
             </igDP:XamDataGrid.FieldSettings>
             <igDP:XamDataGrid.FieldLayouts>
                 <igDP:FieldLayout Key="Sale">

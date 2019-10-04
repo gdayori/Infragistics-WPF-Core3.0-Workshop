@@ -79,3 +79,9 @@ XamCategoryChart is a lightweight chart. It can be easily configured to display 
 
 
 ### Congratulations! That's all for the lab!
+
+Try below dotnet command to release the single EXE file that contains everything to run the app, including .NET runtime and Infragistics assemblies.
+
+`dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true`
+
+You can find the EXE at "bin\Release\netcoreapp3.0\win-x64\publish"

@@ -3,14 +3,13 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace InfragisticsDataVisualization.ViewModel
 {
     class DashboardViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public DashboardViewModel()
         {
             //Get all data required in the dashboard
@@ -21,7 +20,6 @@ namespace InfragisticsDataVisualization.ViewModel
             salesTargetThisYear = salesDataSample.SalesTargetThisYear / 1000000;
             monthlySalesAmount = salesDataSample.MonthlySalesAmount;
         }
-
 
         //Sales Amount By Product
         private ObservableCollection<SalesAmountByProduct> salesAmountByProduct;
@@ -56,6 +54,13 @@ namespace InfragisticsDataVisualization.ViewModel
         public ObservableCollection<MonthlySale> MonthlySalesAmount
         {
             get { return monthlySalesAmount; }
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void RaisePropertyChanged([CallerMemberName]string propertyName = null)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }
