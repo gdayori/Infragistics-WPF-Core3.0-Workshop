@@ -10,7 +10,7 @@ In this section, you quickly build Pivot Analitics UI with XamPivotGird, XamPivo
 
 ## What you build in this section
 
-![](../assets/02-02-01.png)
+![](../assets/02-02-04.png)
 
 ## Next
 [02-01 Use FlatDataSource](02-01-Use-FlatDataSource.md)
