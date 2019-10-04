@@ -6,6 +6,8 @@ You need environments listed below on your PC to proceed with this workshop
 * Visual Studio 2019 (16.3.X or later)
 * .NET Core 3.0
 
+[How to get Infragistics WPF 19.1](https://github.com/gdayori/How-to-get-Infragistics-WPF-Nuget-packages)
+
 ## Datasource to use
 
 All datasource is in the project you downloaded for this workshop. No need to prepare of local db / web service.
