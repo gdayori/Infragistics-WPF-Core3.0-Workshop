@@ -88,9 +88,23 @@ In Visual Studio 2019, select Tools -> Options -> Nuget Package Mannager -> Pack
 
 ## Add a Nuget package for XamDataGrid 
 
+Add the Nuget package for DataGrid control, the below one.
+- Infragistics.WPF.DataGrids
+
+You have 2 options to add Nuget package to .NET Core 3.0 project as below.
+
+### 1. Use dotnet command
+
+Run the "dotnet add package" command by specifying the package you want to add like below.
+
+`dotnet add package Infragistics.WPF.DataGrids`
+
+Make sure you run the command at the directory that has the project file XXX.csproj.
+
+### 2. on the "Manage Nuget Packages" dialog
+
 Right click on the project in Solution Explorer, select "Manage Nuget Packages...". Select the name of the package source you just added ("Infragistics Local" in the image below), search by "WPF.DataGrids" on the Browse tab, select Infragistics.WPF.DataGrids and click the Install button.
 
-- Infragistics.WPF.DataGrids
 
 ![](../assets/01-01-02.png)
 
