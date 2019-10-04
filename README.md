@@ -26,19 +26,19 @@ Note that there's After folder which contains the expected project when you comp
 
 ## All steps
 
-1. [Section 1 - Get started with Infragistics grid control](docs/01-Use-Infragistics-Grid-control/01-00-Overview-of-Section1.md)
-    1. [Get started with XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-01-Get-started-with-XamDataGrid.md)
-    2. [Configure XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-02-Configure-XamDataGrid.md)
-2. [Section 2 - Create a dashboard with-Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-00-Overview-of-Section2.md)
-    1. [Install Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-01-Install-Control-Configulator.md)
-    2. [Layout screen with XamTileManager](docs/02-Create-dashboard-with-Control-Configulator/02-02-Layout-screen-with-XamTileManager.md)
-    3. [Configure PieChart](docs/02-Create-dashboard-with-Control-Configulator/02-03-Configure-PieChart.md)
-    4. [Configure BulletGraph](docs/02-Create-dashboard-with-Control-Configulator/02-04-Configure-BulletGraph.md)
-    5. [Configure Grid](docs/02-Create-dashboard-with-Control-Configulator/02-05-Configure-Grid.md)
-    6. [Configure CategoryChart](docs/02-Create-dashboard-with-Control-Configulator/02-06-Configure-CategoryChart.md)
-3. [Section 3 - Create Self-BI UI with Pivot controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-00-Overview-of-Section3.md)
-    1. [Use FlatDataSource](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-01-Use-FlatDataSource.md)
-    2. [Use Pivot Controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-02-Use-Pivot-Controls.md)
+1. [Section 1 - Get started with Infragistics grid control](docs/01-Grid/01-00-Overview-of-Section1.md)
+    1. [Get started with XamDataGrid](docs/01-Grid/01-01-Get-started-with-XamDataGrid.md)
+    2. [Configure XamDataGrid](docs/01-Grid/01-02-Configure-XamDataGrid.md)
+3. [Section 2 - Pivot Analytics](docs/02-Pivot/02-00-Overview-of-Section2.md)
+    1. [Use FlatDataSource](docs/02-Pivot/02-01-Use-FlatDataSource.md)
+    2. [Use Pivot Controls](docs/02-Pivot/02-02-Use-Pivot-Controls.md)
+2. [Section 3 - Dashboard](docs/03-Dashboard/03-00-Overview-of-Section2.md)
+    1. [Install Control Configulator](docs/03-Dashboard/03-01-Preparation-For-Section3.md)
+    2. [Layout screen with XamTileManager](docs/03-Dashboard/03-02-Layout-screen-with-XamTileManager.md)
+    3. [Configure PieChart](docs/03-Dashboard/03-03-Configure-PieChart.md)
+    4. [Configure BulletGraph](docs/03-Dashboard/03-04-Configure-BulletGraph.md)
+    5. [Configure Grid](docs/03-Dashboard/03-05-Configure-Grid.md)
+    6. [Configure CategoryChart](docs/03-Dashboard/03-06-Configure-CategoryChart.md)
 
 ## What you create through this workshop.
 Section 1 - Get started with Infragistics grid control
