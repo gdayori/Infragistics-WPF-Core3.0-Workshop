@@ -25,8 +25,6 @@ using Infragistics.Olap.FlatData;
 ...
     class PivotViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         public PivotViewModel()
         {
             // Get all data required in the pivot controls
@@ -46,7 +44,6 @@ using Infragistics.Olap.FlatData;
             get { return salesFlatDataSource; }
         }
         // Added ↑↑↑
-    }
 ...
 ```
 

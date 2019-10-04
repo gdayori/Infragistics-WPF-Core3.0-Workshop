@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Windows.Input;
 
@@ -10,7 +11,6 @@ namespace InfragisticsDataVisualization.ViewModel
 {
     class MainWindowViewModel : INotifyPropertyChanged
     {
-        public event PropertyChangedEventHandler PropertyChanged;
         public ICommand OpenDashboard { get; set; }
         public ICommand OpenBiWindow { get; set; }
 
@@ -39,6 +39,12 @@ namespace InfragisticsDataVisualization.ViewModel
             }
         }
 
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void RaisePropertyChanged([CallerMemberName]string propertyName = null)
+        {
+            if (PropertyChanged != null)
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+        }
     }
 
     public class OpenDashboardCommand : ICommand
@@ -51,8 +57,6 @@ namespace InfragisticsDataVisualization.ViewModel
         {
             return true;
         }
-
-        public event EventHandler CanExecuteChanged;
 
         public void Execute(object parameter)
         {
@@ -71,12 +75,16 @@ namespace InfragisticsDataVisualization.ViewModel
             return true;
         }
 
-        public event EventHandler CanExecuteChanged;
-
         public void Execute(object parameter)
         {
             var newWindow = new Pivot();
             newWindow.Show();
+        }
+
+        public event EventHandler CanExecuteChanged;
+        public void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
         }
     }
 }
