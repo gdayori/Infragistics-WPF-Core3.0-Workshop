@@ -14,11 +14,10 @@ Add Nuget packages listed below as same as you did in the Section 1 for DataGrid
 - Infragistics.WPF.PivotDataSlicer
 - Infragistics.WPF.Charts.Olap
 
-`
-dotnet add package Infragistics.WPF.Olap.FlatData
-dotnet add package Infragistics.WPF.PivotGrid
-dotnet add package Infragistics.WPF.PivotDataSlicer
-dotnet add package Infragistics.WPF.Charts.Olap
+`dotnet add package Infragistics.WPF.Olap.FlatData`<br>
+`dotnet add package Infragistics.WPF.PivotGrid`<br>
+`dotnet add package Infragistics.WPF.PivotDataSlicer`<br>
+`dotnet add package Infragistics.WPF.Charts.Olap`<br>
 `
 
 ![](../assets/02-02-01.png)
@@ -28,6 +27,7 @@ dotnet add package Infragistics.WPF.Charts.Olap
 Open PivotViewModel.cs and define FlatDataSource to be bound to Pivot controls in View.
 
 ```cs
+...
 using Infragistics.Olap.FlatData;
 ...
     class PivotViewModel
