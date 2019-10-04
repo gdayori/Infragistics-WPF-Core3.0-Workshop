@@ -1,10 +1,10 @@
-#  Data on a grid
+# Section1 - DataGrid
 
-Display sales records on a grid conrtol to see the data to be anilized & visualized in this section. You build rich grid UI with XamDataGrid in MainWindow.xaml.
+Display sales records on a DataGrid conrtol to see the data to be analyzed & visualized in this lab.
 
 ## Steps
 1. [Get started with XamDataGrid](01-01-Get-started-with-XamDataGrid.md)
-3. [Configure XamDataGrid](01-02-Configure-XamDataGrid.md)
+1. [Configure XamDataGrid](01-02-Configure-XamDataGrid.md)
 
 ## What you build in this section
 
@@ -12,4 +12,4 @@ Display sales records on a grid conrtol to see the data to be anilized & visuali
 
 ## Next
 
-[Get started with XamDataGrid](01-01-Get-started-with-XamDataGrid.md)
+[01-01 Get started with XamDataGrid](01-01-Get-started-with-XamDataGrid.md)

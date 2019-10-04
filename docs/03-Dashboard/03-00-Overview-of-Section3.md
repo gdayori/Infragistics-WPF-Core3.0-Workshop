@@ -1,4 +1,4 @@
-# Create dashboard with Control Configulator
+# Section3 - Dashboard
 
 In Section 2, you built a pivot UI which is useful when user wants to analyze data, but might be a little bit hard to use it for non-IT users as it requires IT literacy for data analytics.
 

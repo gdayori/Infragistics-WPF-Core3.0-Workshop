@@ -1,4 +1,4 @@
-# prerequisites
+# Prerequisites
 
 You need environments listed below on your PC to proceed with this workshop 
 

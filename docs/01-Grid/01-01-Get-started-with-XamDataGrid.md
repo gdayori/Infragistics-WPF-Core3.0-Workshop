@@ -1,8 +1,8 @@
 # Get started with XamDataGrid
 
-If you have installed Infragistics WPF controls, all controls should be ready in the Toolbox in your Visual Studio. You can use them just like you develop with Common WPF Controls.
+When you use 3rd party library like Infragistics you need to add Nuget packages to the project to use them. After adding packages you can use them just like you develop with Common WPF Controls on XAML and C# code.
 
-Please open the project in "before" folder you downloaded, which is in infragistics-wpf-workshop/src/before.
+Open the project in "before" folder you downloaded, which is in Infragistics-WPF-Core3.0-Workshop/src/before.
 
 ## Check MainWindowViewModel.cs
 
