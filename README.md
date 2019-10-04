@@ -1,4 +1,4 @@
-# Infragistics-WPF-Core3.0-Workshop
+# Visualizing data with Infragistics on Core3.0
 
 ## About this hands-on lab
 
