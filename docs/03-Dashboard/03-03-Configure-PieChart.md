@@ -73,4 +73,4 @@ If you want to learn more about XamPieChart, check the help topic here.
 Getting Started](https://www.infragistics.com/help/wpf/piechart-getting-started-with-piechart)
 
 ## Next
-[02-04 Configure BulletGraph](02-04-Configure-BulletGraph.md)
+[03-04 Configure BulletGraph](03-04-Configure-BulletGraph.md)

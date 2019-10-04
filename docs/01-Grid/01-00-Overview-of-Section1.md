@@ -1,6 +1,6 @@
 #  Data on a grid
 
-In this section, display sales records on a grid conrtol to see the data to be anilized & visualized. You build rich grid UI with XamDataGrid in MainWindow.xaml.
+Display sales records on a grid conrtol to see the data to be anilized & visualized in this section. You build rich grid UI with XamDataGrid in MainWindow.xaml.
 
 ## Steps
 1. [Get started with XamDataGrid](01-01-Get-started-with-XamDataGrid.md)

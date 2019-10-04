@@ -31,4 +31,4 @@ Add Nuget packages listed below as same as you did in the Section 1 & 2.
 
 
 ## Next
-[02-02 Layout screen with XamTileManager](02-02-Layout-screen-with-XamTileManager.md)
+[03-02 Layout screen with XamTileManager](03-02-Layout-screen-with-XamTileManager.md)

@@ -87,4 +87,4 @@ If you want to learn more about XamDataGrid, check the help topic.
 [Adding xamDataGrid to Your Page](https://www.infragistics.com/help/wpf/xamdatagrid-getting-started-with-xamdatagrid)
 
 ## Next
-[02-06 Configure CategoryChart](02-06-Configure-CategoryChart.md)
+[03-06 Configure CategoryChart](03-06-Configure-CategoryChart.md)

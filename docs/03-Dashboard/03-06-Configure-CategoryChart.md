@@ -74,3 +74,8 @@ XamCategoryChart is a lightweight chart. It can be easily configured to display 
 [Getting Started with XamCategoryChart](https://www.infragistics.com/help/wpf/categorychart-walkthrough)
 
 [Getting Started with XamDataChart](https://www.infragistics.com/help/wpf/datachart-getting-started-with-datachart)
+
+
+
+
+### Congratulations! That's all for the lab!
