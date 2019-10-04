@@ -41,7 +41,7 @@ This class has
 
 ## Check MainWindow.xaml
 
-Open MainWindow.xaml and check what's in the xaml.
+Open MainWindow.xaml and check what's in the xaml. *You don't have to write code here.
 ```xml
 <Window x:Class="InfragisticsDataVisualization.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
@@ -123,7 +123,7 @@ Run the app and check the result.
 
 ## Note
 
-XamDataGrid has a capability of generating column definitions automatically corresponding to the bound data. If you want to configure columns in detail you need to set AutoGenerateFields property to False and define all fields. (You can try it later in the 2nd section.)
+XamDataGrid has a capability of generating column definitions automatically corresponding to the bound data. If you want to configure columns in detail you need to set AutoGenerateFields property to False and define all fields.
 
 ## Next
 [01-02 Configure XamDataGrid](01-02-Configure-XamDataGrid.md)

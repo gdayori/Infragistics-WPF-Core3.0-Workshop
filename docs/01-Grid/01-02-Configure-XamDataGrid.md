@@ -48,4 +48,4 @@ XamDataGrid has a lot more properties you can use. If you want to know more abou
 [XamDataGrid: Help and Reference](https://www.infragistics.com/help/wpf/xamdatagrid)
 
 ## Next
-[Overview of Section2](../02-Create-dashboard-with-Control-Configulator/02-00-Overview-of-Section2.md)
+[Overview of Section2](../02-Pivot/02-00-Overview-of-Section2.md)

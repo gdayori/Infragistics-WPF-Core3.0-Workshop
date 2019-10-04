@@ -50,12 +50,10 @@ using Infragistics.Olap.FlatData;
 ...
 ```
 
-Now this class has
- - SalesFlatDataSource to be bound to pivot controls
-
-Original data to be bound to FlatDataSource.ItemsSource is "SalesData" which is same as the datasource in the Section 1.
-
-Note that you don't write code here but check what's in the View and the ViewModel in this section.
+Now ViewModel class has
+ - SalesFlatDataSource to be bound to pivot controls.
+ 
+ Note that SalesDataSample.SalesData is same data as the datasource in the Section 1.
 
 ## Note
 

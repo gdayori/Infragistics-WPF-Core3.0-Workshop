@@ -5,7 +5,7 @@ In Section 2, you built a pivot UI which is useful when user wants to analyze da
 In section 3, you build a Dashboard UI with chart and graph controls. Dashbaord UI can be accessed quickly & easily from evey users and it supports highly informed decision making.
 
 ## Steps
-1. [Install Control Configulator](02-01-Install-Control-Configulator.md)
+1. [Preparation for Section3](02-01-Preparation-For-Section3.md)
 2. [Layout screen with XamTileManager](02-02-Layout-screen-with-XamTileManager.md)
 3. [Configure PieChart](02-03-Configure-PieChart.md)
 4. [Configure BulletGraph](02-04-Configure-BulletGraph.md)
@@ -17,4 +17,4 @@ In section 3, you build a Dashboard UI with chart and graph controls. Dashbaord 
 ![](../assets/02-06-07.png)
 
 ## Next
-[02-01 Install Control Configulator](02-01-Install-Control-Configulator.md)
+[02-01 Preparation for Section3](02-01-Preparation-For-Section3.md)

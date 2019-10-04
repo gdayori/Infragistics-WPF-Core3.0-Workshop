@@ -135,4 +135,4 @@ Run the app and check the result.
 If you want to know more about pivot controls please check the following help topic.
 
 ## Next
-[Overview of Section3](../03-Create-Self-BI-UI-with-Pivot-controls/03-00-Overview-of-Section3.md)
+[Overview of Section2](../03-Dashboard/03-00-Overview-of-Section3.md)

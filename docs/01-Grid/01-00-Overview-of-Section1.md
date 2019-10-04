@@ -1,6 +1,6 @@
 #  Data on a grid
 
-In this section, you can learn how to use Infragistics WPF control and how to get started with XamDataGrid control. You quickly build rich grid UI with XamDataGrid in MainWindow.xaml.
+In this section, display sales records on a grid conrtol to see the data to be anilized & visualized. You build rich grid UI with XamDataGrid in MainWindow.xaml.
 
 ## Steps
 1. [Get started with XamDataGrid](01-01-Get-started-with-XamDataGrid.md)
