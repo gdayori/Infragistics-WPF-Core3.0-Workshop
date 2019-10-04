@@ -17,7 +17,7 @@ Add Nuget packages listed below as same as you did in the Section 1 for DataGrid
 `dotnet add package Infragistics.WPF.Olap.FlatData`<br>
 `dotnet add package Infragistics.WPF.PivotGrid`<br>
 `dotnet add package Infragistics.WPF.PivotDataSlicer`<br>
-`dotnet add package Infragistics.WPF.Charts.Olap`<br>
+`dotnet add package Infragistics.WPF.Charts.Olap`
 `
 
 ![](../assets/02-02-01.png)
