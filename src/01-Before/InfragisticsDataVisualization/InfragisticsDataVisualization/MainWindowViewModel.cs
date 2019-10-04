@@ -17,7 +17,7 @@ namespace InfragisticsDataVisualization.ViewModel
         public MainWindowViewModel()
         {
 
-            //Get sales data to be bound to grid
+            // Get sales data to be bound to grid
             SalesDataSample salesDataSample = new SalesDataSample();
             salesRecords = salesDataSample.SalesData;
 
@@ -62,6 +62,12 @@ namespace InfragisticsDataVisualization.ViewModel
         {
             var newWindow = new Dashboard();
             newWindow.Show();
+        }
+
+        public event EventHandler CanExecuteChanged;
+        public void RaiseCanExecuteChanged()
+        {
+            CanExecuteChanged?.Invoke(this, EventArgs.Empty);
         }
     }
     public class OpenPivotCommand : ICommand
