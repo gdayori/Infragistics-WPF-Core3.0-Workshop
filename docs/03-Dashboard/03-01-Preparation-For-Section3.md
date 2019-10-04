@@ -24,6 +24,11 @@ Add Nuget packages listed below as same as you did in the Section 1 & 2.
 - Infragistics.WPF.Gauges
 - Infragistics.WPF.TileManager
 
+`
+dotnet add package Infragistics.WPF.Gauges
+dotnet add package Infragistics.WPF.TileManager
+`
+
 ![](../assets/03-01-01.png)
 
 
