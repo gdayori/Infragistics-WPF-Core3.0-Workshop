@@ -1,4 +1,4 @@
-# Visualizing data with Infragistics on Core3.0
+# Visualizing data with Infragistics on .NET Core 3.0
 
 ## About this hands-on lab
 
